@@ -1,0 +1,56 @@
+/*Set Body properties*/
+body{  
+    /*Create a background using an image*/
+    background: url('Computer-Science-Page-Header.png');
+    /*Set the size of the background image*/
+    background-size: 100%;
+    /*Set the width of the body*/
+    width: 75%;
+    /*Pad the body on the left-hand side*/
+    margin-left: 250px;
+}
+
+/*Create a class for styling specific areas of text*/
+.text_style{
+    /*Add a background to the box of text (r, g, b, opacity*/
+    background-color: rgb(124, 248, 207, 0.8);
+    /*Blend the background to make it more transparent*/
+    background-blend-mode: lighten;
+    /*Align text to center*/
+    text-align: center;
+    /*Choose a Font*/
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Set properties for all oredered lists*/
+ol {
+    /*Add a background to the box of text, (r, g, b, opacity*/
+    background-color: rgb(124, 248, 207, 0.8);
+    /*Blend the background to make it more transparent*/
+    background-blend-mode: lighten;
+    /*Treat the list as a table*/
+    display:table;
+    /*Set the margin to auto for centering the table*/
+    margin: 0 auto;
+    /*Choose a Font*/
+    font-family: 'Times New Roman', Times, serif;
+    /*Bold the text*/
+    font-weight: bold;
+    /*Enlargen the text*/
+    font-size: 125%;
+    /*Align the text to the left, against the bullet points*/
+    text-align: left;
+
+}
+  
+/*Create a class for centering and adjusting the logo*/
+.center {
+    /*Treat the image as a block*/
+    display:block;
+    /*set margins to auto to center the image*/
+    margin-left: auto;
+    margin-right: auto;
+    /*Adjust the width and height of the image*/
+    width: 25%;
+    height: 25%
+}
